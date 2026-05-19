@@ -1,5 +1,7 @@
 # Toki Pona Word2Vec
 
+[![DOI](https://zenodo.org/badge/1153252929.svg)](https://doi.org/10.5281/zenodo.20297806)
+
 - Training
   - `1_train_segment.py` segments the downloaded corpus into sentences and scores them with [Danielson's (2024)](https://github.com/gregdan3/sona-toki) sentence scoring system.
   - `2_train_sanitize.py` removes non-Toki Pona sentences, saving those into `input/2.cleaned.full.txt`, and removes sentences with any non-Toki Pona tokens, saving those into `input/2.cleaned.pure.txt`.
